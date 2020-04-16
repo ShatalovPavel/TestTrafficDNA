@@ -1,0 +1,46 @@
+.block-users{
+    display: flex;
+    align-items: center;
+}
+#users ul{
+
+    list-style: none;
+}
+#users ul img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+#users ul li{
+    display: flex;
+    margin-bottom: 10px;
+}
+.block-users .btn-add{
+    margin-left: 100px;
+}
+.block-users .btn-add button{
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+}
+/*screen 2*/
+div.screen-2{
+    display: none;
+}
+div.screen-2 .input-user{
+    margin-bottom: 20px;
+}
+div.screen-2 .input-user input{
+    width: 325px;
+    height: 25px;
+}
+div.screen-2-btn button{
+    width: 70px;
+    height: 25px;
+}
+div.screen-2-btn .screen-2-btn-add{
+   margin-right: 189px;
+}
+.active{
+    border: 1px solid red;
+}
